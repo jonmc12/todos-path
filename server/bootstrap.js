@@ -49,3 +49,9 @@ Meteor.startup(function () {
     });
   }
 });
+
+Meteor.methods({
+  testPath: function() {
+    console.log(path);
+  }
+});
